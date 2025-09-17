@@ -1,12 +1,63 @@
-# React + Vite
+# SQL Query Runner Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Problem Statement
+Create, design, and implement a **web-based application** capable of running SQL queries and displaying the results.  
+The application includes:
+- A space to accept SQL queries (via textarea/code editor).
+- A **Run** button to execute queries.
+- A table to display results.  
+> ⚡ Note: This is a dummy application. No backend/query engine is involved. Predefined queries and static tables are used for demonstration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎥 Walkthrough Video
+[YouTube Demo Video](https://www.youtube.com/watch?v=5JfH0gK0-HE)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Live Demo & Code
+- **Live App on Vercel**: [https://sql-query-workspace.vercel.app/](https://sql-query-workspace.vercel.app/)  
+- **GitHub Repository**: [https://github.com/vamshiraghav/SQL-query-workspace](https://github.com/vamshiraghav/SQL-query-workspace)
+
+---
+
+## 🛠 Tech Stack
+- **ReactJS** – Frontend framework  
+- **Material UI** – UI components library  
+
+---
+
+## ⚡ Features
+- Input box (textarea) for SQL queries.  
+- Predefined queries and dummy tables.  
+- Multiple query → result table mappings.  
+- Clean, responsive UI with Material UI components.  
+
+---
+
+## ⏱ Page Load Time
+- **Measured using Lighthouse & Chrome DevTools**  
+- Average load time: **~1.2s** on a 4G network  
+
+---
+
+## 🚀 Optimisations
+- Code splitting for faster load.  
+- Used Material UI’s tree-shaking to reduce bundle size.  
+- Cached assets via Vercel’s CDN.  
+
+---
+
+## 📝 How to Run Locally
+```bash
+# Clone repository
+git clone https://github.com/vamshiraghav/SQL-query-workspace
+
+# Navigate to project
+cd sql-query-workspace
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
