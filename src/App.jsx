@@ -1,10 +1,11 @@
 import { useMemo, useState } from 'react'
-import './App.css'
-import { PageHeader } from './Pageheader'
+import { PageHeader } from './PageHeader'
 import { Grid } from '@mui/material'
 import { QueryWorkbench } from './QueryWorkBench'
 import { SidePanel } from './SidePanel'
 import { EMPLOYEES } from './data'
+import './App.css'
+
 
 
 export default function App() {
